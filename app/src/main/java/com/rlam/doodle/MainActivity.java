@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
                 final SeekBar opacitySeek = new SeekBar(MainActivity.this);
                 opacitySeek.setMax(255);
                 opacitySeek.setKeyProgressIncrement(1);
-                opacitySeek.setMinimumHeight(100);/
+                opacitySeek.setMinimumHeight(100);
 
                 opacitySeek.setProgress(opacity);
                 opacitySeek.getProgressDrawable().setColorFilter(color, PorterDuff.Mode.MULTIPLY);
